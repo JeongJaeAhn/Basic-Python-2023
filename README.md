@@ -20,5 +20,17 @@ print('Hello, Python!!') # 콘솔출력 함수
     - 변수
     - 자료형
     - 연산자
-    - 흐름제어
 
+```python
+# 변수
+val = 1                             # val에 값 1을 대입
+
+# 자료형
+print(type(val))                    # <class 'int'> val의 자료형은 정수형
+
+# 문자열 포맷팅
+pi = 3.141592
+print(f'파이는 {pi}입니다.')        # pi는 3.141592 입니다.
+print(f'파이는 {pi:0.2f}입니다.')   # pi는 3.14 입니다.
+print(f'파이는 {pi:10.3f}입니다.')  # pi는         3.142 입니다.
+```
